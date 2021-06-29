@@ -1,0 +1,17 @@
+.newsletter{
+    background-color:lightgray;
+    color: black;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+.list-tags__item{
+    display: inline;
+    background-color: blue;
+    margin: 0.5rem auto;
+    color: white;
+    padding: 0.3rem 1rem;
+}
+.list-header,.list-tags{
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,28 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    border-bottom: 1px solid black;
+    @include tablet-view{
+    padding: 1rem 1rem;  
+    align-items: center;
+    }
+    &__logo{
+        font-weight: 700;
+        padding-top: 1rem;
+    }
+}
+.nav{
+    display: flex;  
+    &__list{
+        display: flex;
+        list-style: none;
+        
+    }
+}
+a{
+    padding: 0 1rem;
+    list-style: none; 
+    text-decoration: none;
+    color: black;
+}
